@@ -1,12 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: Open Sans;
 }
-
+/* header start */
+header{
+    background-color: rgba(218, 214, 209, 0.629);
+}
+/* navbar start */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    padding: 0 25px;
+}
+.header-name{
+    font-size: 45px;
+    color: #474747;
 }
 
 .logocolor {
@@ -25,6 +37,7 @@ nav a {
     color: #474747;
 }
 
+
 .btncolor {
     border-radius: 5px;
     background: #FD6E0A;
@@ -33,18 +46,38 @@ nav a {
     font-weight: 700;
     padding: 10px 15px;   
 }
+/* navar end */
 
+/* banar start */
 .banar{
     display: flex;
     justify-content: space-between;
-    padding: 0 10px 20px 150px;
+    padding: 0 25px 0    150px;
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: 700px;
+    background-position: bottom right;
+}
+.banar .banar-item {
+    padding-top: 70px;
 }
 
-.banar .banar-item {
-    
+.banar-item > h3, h1, p, button{
+    padding: 20px 0;
 }
 
 .banar img{
     width: 400px;
+}
 
+/* banar end */
+
+/* discripsion start */
+
+.discripsion{
+    padding: 150px;
+    text-align: center;
+    color: #757575;
+    background: #FFF8F3;
 }
