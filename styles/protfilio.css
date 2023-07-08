@@ -4,6 +4,8 @@ body {
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 
 }
 
@@ -14,6 +16,7 @@ nav {
 nav>ul {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 nav a {
@@ -29,4 +32,19 @@ nav a {
     color:#fff;
     font-weight: 700;
     padding: 10px 15px;   
+}
+
+.banar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px 20px 150px;
+}
+
+.banar .banar-item {
+    
+}
+
+.banar img{
+    width: 400px;
+
 }
