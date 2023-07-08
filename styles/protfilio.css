@@ -1,9 +1,32 @@
-body{
-    font-family: 'Lilita One', cursive;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Oswald', sans-serif;
+body {
+    font-family: Open Sans;
 }
 
-nav{
+nav {
     display: flex;
+
+}
+
+.logocolor {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 50px;
+    color: #474747;
+}
+
+.btncolor {
+    border-radius: 5px;
+    background: #FD6E0A;
+    border:none; 
+    color:#fff;
+    font-weight: 700;
+    padding: 10px 15px;   
 }
