@@ -1,14 +1,17 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
+
 body {
     font-family: Open Sans;
 }
+
 /* header start */
-header{
+header {
     background-color: rgba(218, 214, 209, 0.629);
 }
+
 /* navbar start */
 nav {
     display: flex;
@@ -16,7 +19,8 @@ nav {
     justify-content: space-between;
     padding: 0 25px;
 }
-.header-name{
+
+.header-name {
     font-size: 45px;
     color: #474747;
 }
@@ -41,33 +45,38 @@ nav a {
 .btncolor {
     border-radius: 5px;
     background: #FD6E0A;
-    border:none; 
-    color:#fff;
+    border: none;
+    color: #fff;
     font-weight: 700;
-    padding: 10px 15px;   
+    padding: 10px 15px;
 }
+
 /* navar end */
 
 /* banar start */
-.banar{
+.banar {
     display: flex;
     justify-content: space-between;
-    padding: 0 25px 0    150px;
+    padding: 0 25px 0 150px;
     background: #FFF8F3;
     background-image: url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-size: 700px;
     background-position: bottom right;
 }
+
 .banar .banar-item {
     padding-top: 70px;
 }
 
-.banar-item > h3, h1, p, button{
+.banar-item>h3,
+h1,
+p,
+button {
     padding: 20px 0;
 }
 
-.banar img{
+.banar img {
     width: 400px;
 }
 
@@ -76,8 +85,26 @@ nav a {
 /* discripsion start */
 
 .discripsion{
-    padding: 150px;
+    /* min-width: 700px; */
+    padding: 15px 150px 0 150px;
+    margin: 80px;
     text-align: center;
     color: #757575;
+    border-radius: 10px;
     background: #FFF8F3;
+}
+.identity-form{
+    display: flex;
+    justify-content: center;
+}
+.info > h4{
+    font-size: 9px;
+}
+
+.info > h1{
+    font-size: 12px;
+    color: black;
+}
+.info > h4, h1{
+    padding: 0 16px;
 }
