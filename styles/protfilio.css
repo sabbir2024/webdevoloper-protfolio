@@ -1,0 +1,9 @@
+body{
+    font-family: 'Lilita One', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;
+}
+
+nav{
+    display: flex;
+}
